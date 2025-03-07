@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="p-6 pb-20 lg:flex lg:justify-between">
         <div className="footer-left flex flex-col lg:flex-row gap-7 text-[#393939]">
           <Image
-            src="/images/weFrameTechLogo.webp"
+            src="/images/ecomm-logo.png"
             alt="logo"
             width={500}
             height={500}

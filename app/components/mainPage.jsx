@@ -32,7 +32,7 @@ const MainPage = () => {
         <h1 className="font-cabinet text-[#393939] md:text-3xl">
           Articles similaires
         </h1>
-        <div className="article-container flex gap-8 overflow-x-auto">
+        <div className="article-container flex gap-8 overflow-x-auto overflow-y-hidden">
           {products.map((product) => (
             <Articles
               key={product.id}
@@ -49,7 +49,7 @@ const MainPage = () => {
         <h1 className="font-cabinet text-[#393939] md:text-3xl">
           Ces produits pourraient vous intéresser
         </h1>
-        <div className=" flex gap-8 overflow-x-auto">
+        <div className=" flex gap-8 overflow-x-auto overflow-y-hidden">
           {products.map((product) => {
             return (
               <CesProduits
