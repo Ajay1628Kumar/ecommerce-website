@@ -18,10 +18,11 @@ const Navbar = () => {
       >
         <div className="w-24">
           <Image
-            src="/images/weFrameTechLogo.webp"
+            src="/images/ecomm-logo.png"
             width={500}
             height={500}
             alt="logo"
+            className="w-16 md:w-32 object-cover"
           />
         </div>
         <input
@@ -32,7 +33,9 @@ const Navbar = () => {
 
         <nav>
           <ul className="text-poppins hidden ml-2 text-sm text-[#3B4347] md:visible md:list-none md:flex md:items-center md:gap-3 md:font-light">
-            <li><i className="ri-lightbulb-line"></i> Inspirations</li>
+            <li>
+              <i className="ri-lightbulb-line"></i> Inspirations
+            </li>
             <li>
               <i className="ri-heart-line"></i> Mes favoris
             </li>
@@ -40,7 +43,7 @@ const Navbar = () => {
               24
             </li>
             <li className="pt-1 pb-1 pl-2 pr-2 rounded-md bg-[#0093D0] text-white">
-            <i className="ri-shopping-cart-2-line"></i> Panier
+              <i className="ri-shopping-cart-2-line"></i> Panier
             </li>
             <li className="bg-[#EAEDEE] h-10 w-10 rounded-full"></li>
             <li>
@@ -57,7 +60,9 @@ const Navbar = () => {
 
         <div className="font-inter md:hidden text-[#3B4347]">
           <DropdownMenu>
-            <DropdownMenuTrigger><i className="ri-menu-line"></i></DropdownMenuTrigger>
+            <DropdownMenuTrigger>
+              <i className="ri-menu-line"></i>
+            </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuLabel>Profile</DropdownMenuLabel>
               <DropdownMenuSeparator />
